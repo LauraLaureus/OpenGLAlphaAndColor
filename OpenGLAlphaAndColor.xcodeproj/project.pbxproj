@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27DCD2BF1C8D8177008D74F4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27DCD2BE1C8D8177008D74F4 /* main.c */; };
+		27DCD2C81C8D81B7008D74F4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27DCD2C51C8D81B7008D74F4 /* main.c */; };
+		27DCD2C91C8D81B7008D74F4 /* View.c in Sources */ = {isa = PBXBuildFile; fileRef = 27DCD2C61C8D81B7008D74F4 /* View.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		27DCD2BB1C8D8177008D74F4 /* OpenGLAlphaAndColor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGLAlphaAndColor; sourceTree = BUILT_PRODUCTS_DIR; };
-		27DCD2BE1C8D8177008D74F4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		27DCD2C51C8D81B7008D74F4 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		27DCD2C61C8D81B7008D74F4 /* View.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = View.c; sourceTree = "<group>"; };
+		27DCD2C71C8D81B7008D74F4 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		27DCD2BD1C8D8177008D74F4 /* OpenGLAlphaAndColor */ = {
 			isa = PBXGroup;
 			children = (
-				27DCD2BE1C8D8177008D74F4 /* main.c */,
+				27DCD2C61C8D81B7008D74F4 /* View.c */,
+				27DCD2C71C8D81B7008D74F4 /* View.h */,
+				27DCD2C51C8D81B7008D74F4 /* main.c */,
 			);
 			path = OpenGLAlphaAndColor;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27DCD2BF1C8D8177008D74F4 /* main.c in Sources */,
+				27DCD2C91C8D81B7008D74F4 /* View.c in Sources */,
+				27DCD2C81C8D81B7008D74F4 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
